@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>TENÉA — Rooted in Greece. Crafted for life.</title>
+  <meta name="description" content="Discover TENÉA extra virgin olive oil and Greek olives. A family tradition from Ancient Tenea, in the heart of the Peloponnese.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23232920'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Georgia' font-size='28' fill='%23d0ad61'%3ET%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="i18n.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <nav class="nav-left" aria-label="Main navigation"><a href="#collection">The collection</a><a href="#roots">Our roots</a></nav>
+    <a class="wordmark" href="#home" aria-label="TENÉA home">TENÉA<span>THE ESSENCE OF GREECE</span></a>
+    <div class="nav-right"><a href="#contact">Get in touch <span aria-hidden="true">↗</span></a><a class="shop-nav" href="https://www.tenea.shop/webshop" target="_blank" rel="noopener"><span>Shop</span> ↗</a></div>
+    <div class="language-switch" aria-label="Language / Γλώσσα"><button type="button" data-language="el" aria-pressed="false" aria-label="Ελληνικά">GR</button><span aria-hidden="true">/</span><button type="button" data-language="en" aria-pressed="true" aria-label="English">EN</button></div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#collection">The collection</a><a href="#roots">Our roots</a><a href="#contact">Get in touch</a><a href="https://www.tenea.shop/webshop" target="_blank" rel="noopener">Shop</a></nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-rule"></span> ANCIENT TENEA · PELOPONNESE</p>
+        <h1 id="hero-title">Rooted in Greece.<br>Crafted <em>for life.</em></h1>
+        <p class="hero-description">Exceptional olive oil. A family's devotion.<br>A little of our land, at your table.</p>
+        <a class="button" href="#collection">Explore the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-product">
+        <div class="hero-halo" aria-hidden="true"></div>
+        <img class="hero-bottle" src="assets/premium.jpg" width="1000" height="1000" fetchpriority="high" alt="TENÉA Premium Selection extra virgin olive oil in a matte black bottle with gold lettering">
+        <span class="vertical-note">THE ELIXIR OF LIFE</span>
+        <a class="hero-caption" href="#collection"><span>01 — THE PREMIUM SELECTION</span><span class="caption-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>GREEK SOUL. EXTRA VIRGIN.</span><a href="#collection">Discover TENÉA <span aria-hidden="true">↓</span></a><span>FROM OUR FAMILY TO YOUR TABLE</span></div>
+    </section>
+    <section class="collection section" id="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE COLLECTION</p><h2 id="collection-title">Goodness, <em>in its purest form.</em></h2></div><p>From the first pour to the last olive.<br>Find your own taste of Greece.</p></div>
+      <div class="collection-tabs" role="tablist" aria-label="Product collections"><button id="oil-tab" role="tab" aria-selected="true" aria-controls="oil-panel">Extra virgin olive oils <span>03</span></button><button id="olive-tab" role="tab" aria-selected="false" aria-controls="olive-panel" tabindex="-1">Greek olives <span>02</span></button></div>
+      <div id="oil-panel" class="product-grid" role="tabpanel" aria-labelledby="oil-tab">
+        <article class="product-card"><span class="product-number">01 / REGULAR LINE</span><button class="product-image" data-product="regular" aria-label="Discover the Regular Line"><img src="assets/regular.png" alt="TENÉA olive oil in a silver-labelled glass bottle" width="1200" height="1200" loading="lazy"></button><div class="product-info"><div><h3>The everyday essential</h3><p>Extra Virgin Olive Oil</p></div><button class="circle-link" data-product="regular" aria-label="View Regular Line details">↗</button></div><p class="product-sizes">100 ml · 250 ml · 500 ml · 750 ml</p></article>
+        <article class="product-card"><span class="product-number">02 / PREMIUM SELECTION</span><button class="product-image" data-product="premium" aria-label="Discover Premium Selection"><img src="assets/premium.jpg" alt="Black and gold TENÉA Premium Selection bottle" width="1000" height="1000" loading="lazy"></button><div class="product-info"><div><h3>A little extraordinary</h3><p>Premium Extra Virgin Olive Oil</p></div><button class="circle-link" data-product="premium" aria-label="View Premium Selection details">↗</button></div><p class="product-sizes">100 ml · 250 ml · 500 ml · Gift box</p></article>
+        <article class="product-card"><span class="product-number">03 / ORGANIC LINE</span><button class="product-image" data-product="organic" aria-label="Discover the Organic Line"><img src="assets/organic.jpg" alt="White and gold TENÉA Organic olive oil bottle with a wooden stopper" width="1000" height="1000" loading="lazy"></button><div class="product-info"><div><h3>Nature, uninterrupted</h3><p>Organic Extra Virgin Olive Oil</p></div><button class="circle-link" data-product="organic" aria-label="View Organic Line details">↗</button></div><p class="product-sizes">100 ml · 250 ml</p></article>
+      </div>
+      <div id="olive-panel" class="product-grid olives-grid" role="tabpanel" aria-labelledby="olive-tab" hidden>
+        <article class="product-card"><span class="product-number">01 / CHALKIDIKI OLIVES</span><button class="product-image" data-product="chalkidiki" aria-label="Discover Chalkidiki olives"><img src="assets/chalkidiki.jpg" alt="TENÉA pitted green Chalkidiki olives in a glass jar" width="1000" height="1000" loading="lazy"></button><div class="product-info"><div><h3>A taste of the sun</h3><p>Chalkidiki Olives · Pitted</p></div><button class="circle-link" data-product="chalkidiki" aria-label="View Chalkidiki olive details">↗</button></div></article>
+        <article class="product-card"><span class="product-number">02 / KALAMON OLIVES</span><button class="product-image" data-product="kalamon" aria-label="Discover Kalamon olives"><img src="assets/kalamon.jpg" alt="TENÉA pitted Kalamon olives in a glass jar" width="1000" height="1000" loading="lazy"></button><div class="product-info"><div><h3>The Greek classic</h3><p>Kalamon Olives · Pitted</p></div><button class="circle-link" data-product="kalamon" aria-label="View Kalamon olive details">↗</button></div></article>
+      </div>
+      <div class="collection-foot"><p>Made to be enjoyed. Even better when shared.</p><a class="text-link" href="https://www.tenea.shop/webshop" target="_blank" rel="noopener">Visit the online shop <span aria-hidden="true">↗</span></a></div>
+    </section>
+    <section class="land-banner" id="land" aria-label="Our land in Ancient Tenea">
+      <img src="assets/land.jpg" alt="The olive-growing landscape surrounding Ancient Tenea in the Peloponnese, Greece" width="2000" height="1068" loading="lazy">
+      <div class="land-copy"><p class="eyebrow">ONE LAND. A LIFETIME OF DEVOTION.</p><h2>You can taste<br><em>where we come from.</em></h2><span>ANCIENT TENEA, GREECE — 340 M ABOVE THE SEA</span></div>
+    </section>
+    <section class="roots section" id="roots" aria-labelledby="roots-title">
+      <div class="roots-heading"><p class="eyebrow">02 / OUR ROOTS</p><h2 id="roots-title">Some things<br>are in <em>our nature.</em></h2></div>
+      <div class="roots-copy"><p>In the hills of Corinth, among the olive groves of Ancient Tenea, our family has always felt at home.</p><p>Knowledge passes from one generation to the next. The hands change; the care remains. Founded by Athina Kordosi, TENÉA brings this family tradition to tables beyond Greece.</p><p>Our land's soil and climate nurture the Manaki olive variety. It is here, in the Peloponnese, that our story begins.</p><a class="text-link" href="#family">Meet the spirit behind TENÉA <span aria-hidden="true">↓</span></a></div>
+      <figure class="family-photo" id="family"><img src="assets/grove.jpg" width="1920" height="2560" alt="Generations of the TENÉA family together at the olive harvest" loading="lazy"><figcaption>Different generations. The same love for the land.</figcaption></figure>
+      <div class="roots-detail"><img src="assets/organic-life.jpg" width="1125" height="2000" alt="TENÉA Premium and Organic bottles beneath an olive tree" loading="lazy"><p>Rooted in tradition.<br>Made to be part of your everyday.</p></div>
+    </section>
+    <section class="awards section" aria-labelledby="awards-title"><div class="awards-intro"><p class="eyebrow">RECOGNISED BEYOND OUR GROVES</p><h2 id="awards-title">Greek soul.<br><em>International acclaim.</em></h2></div><div class="award-list"><div class="award"><span class="award-symbol" aria-hidden="true">✦</span><div><h3>Dubai Olive Oil Competition</h3><p>Gold · Taste &amp; Packaging</p></div><span>2022</span></div><div class="award"><span class="award-symbol" aria-hidden="true">✦</span><div><h3>Best Olive Oils Greece</h3><p>Gold · Taste</p></div><span>2022</span></div><div class="award"><span class="award-symbol" aria-hidden="true">✦</span><div><h3>London International Olive Oil Competition</h3><p>Silver · Taste</p></div><span>2022</span></div></div></section>
+    <section class="gift-section section" aria-labelledby="gift-title"><div class="gift-visual"><img src="assets/gift.jpg" width="1000" height="1000" alt="TENÉA Premium Selection bottle and its cylindrical gold-lettered gift box" loading="lazy"></div><div class="gift-copy"><p class="eyebrow">A THOUGHTFUL GESTURE</p><h2 id="gift-title">Give a little<br><em>of Greece.</em></h2><p>For a generous host. A shared celebration.<br>Or simply someone with very good taste.</p><p class="gift-spec">Premium Selection · 500 ml · Gift box</p><button class="button" data-product="gift">Discover the gift box <span aria-hidden="true">↗</span></button></div></section>
+    <section class="contact section" id="contact" aria-labelledby="contact-title"><p class="eyebrow">03 / LET'S CONNECT</p><h2 id="contact-title">From our family<br>to <em>your table.</em></h2><p>For orders, thoughtful gifts or a new partnership,<br>we would love to hear from you.</p><a class="contact-email" href="mailto:teneaoliveoil@gmail.com">teneaoliveoil@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-details"><a href="tel:+306972998700">+30 697 299 8700</a><span>Chiliomodi, 20008 · Corinth, Greece</span></div></section>
+  </main>
+  <footer class="footer"><a class="wordmark" href="#home" aria-label="Back to TENÉA homepage">TENÉA<span>THE ESSENCE OF GREECE</span></a><p>© 2026 TENÉA Olive Oil</p><a class="text-link" href="#home">Back to the top <span aria-hidden="true">↑</span></a></footer>
+  <dialog id="product-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close product details">×</button><div class="dialog-layout"><div class="dialog-visual"><img id="dialog-image" src="assets/premium.jpg" alt="TENÉA Premium Selection" width="1000" height="1000"></div><div class="dialog-copy"><p class="eyebrow" id="dialog-label">TENÉA COLLECTION</p><h2 id="dialog-title">Premium Selection</h2><p id="dialog-description"></p><dl id="dialog-specs"></dl><a class="button" id="dialog-shop" href="https://www.tenea.shop/webshop" target="_blank" rel="noopener"><span id="shop-label">Browse the shop</span><span aria-hidden="true">↗</span></a><p class="dialog-note" id="shop-note"></p><a class="text-link" id="dialog-enquire" href="mailto:teneaoliveoil@gmail.com">Enquire about this product <span aria-hidden="true">↗</span></a><p class="dialog-note">Contact our family for availability and ordering.</p></div></div></dialog>
+</body>
+</html>
